@@ -53,7 +53,7 @@ def morsecode ():
 	time.sleep(.7)
 	
 os.system('clear')
-print() "Morse Code"
+//print "Morse Code"
 loop_count = input("How many times would you like SOS to loop?: ")
 while loop_count > 0:
 	loop_count = loop_count - 1
