@@ -6,8 +6,6 @@ GPIO.setmode(GPIO.BCM)
 GPIO.setwarnings(False)
 GPIO.setup(22,GPIO.OUT)
 
-loop_count = 0
-
 def morsecode ():
 
 	#Dot Dot Dot
