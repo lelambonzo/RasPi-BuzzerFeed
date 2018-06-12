@@ -35,24 +35,10 @@ def morsecode ():
 	time.sleep(.2)
 	GPIO.output(22,GPIO.LOW)
 	time.sleep(.2)
-
-	#Dot Dot Dot
-	GPIO.output(22,GPIO.HIGH)
-	time.sleep(.1)
-	GPIO.output(22,GPIO.LOW)
-	time.sleep(.1)
-	GPIO.output(22,GPIO.HIGH)
-	time.sleep(.1)
-	GPIO.output(22,GPIO.LOW)
-	time.sleep(.1)
-	GPIO.output(22,GPIO.HIGH)
-	time.sleep(.1)
-	GPIO.output(22,GPIO.LOW)
-	time.sleep(.7)
 	
 os.system('clear')
 #loop_count = int(input("How many times would you like SOS to loop?: "))
-loop_count = 2
+loop_count = 1
 while loop_count > 0:
 	loop_count = loop_count - 1
 	morsecode ()
